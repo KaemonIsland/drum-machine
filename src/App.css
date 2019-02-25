@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  background: linear-gradient(blue, yellow);
+}
+
+.drum-wrapper {
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+  margin: 0 auto;
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.drum-pad {
+  padding: 3.2rem;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.drum-pad:focus {
+  color: red;
+  background-color: blue;
+}
+
+#display {
+  font-size: 2rem;
+}
